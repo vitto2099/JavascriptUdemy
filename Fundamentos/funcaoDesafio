@@ -1,0 +1,9 @@
+let textoFunction = (a) => console.log(a)
+textoFunction("Hello World")
+
+const soma = (a, b = 0) => console.log(a + b)
+soma(4, 5)
+
+const teste = (a, b = 10, c = 1) => (a + b + c)
+console.log(teste(1))// 1 + 10 + 1 = 12
+
